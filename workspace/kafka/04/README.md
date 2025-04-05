@@ -1,0 +1,2 @@
+# Ćwiczenie 4:
+Zaimplementować prosty procesor strumieniowy: skrypt, który czyta dane z jednego topicu, filtruje je na podstawie warunku i publikuje je do dwóch różnych topiców (np. lab4-valid i lab4-invalid). To praktyczne wprowadzenie do routingu wiadomości w czasie rzeczywistym.

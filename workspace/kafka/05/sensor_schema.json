@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "required": ["sensor_id", "temperature", "timestamp"],
+    "properties": {
+      "sensor_id": {
+        "type": "string"
+      },
+      "temperature": {
+        "type": "number",
+        "minimum": -50,
+        "maximum": 100
+      },
+      "timestamp": {
+        "type": "number"
+      }
+    }
+  }
+  

@@ -1,0 +1,2 @@
+# Ćwiczenie 7:
+Zintegrować Apache Kafka z bazą danych PostgreSQL. Skrypt w Pythonie będzie konsumował dane z Kafka i zapisywał je do tabeli. To typowy scenariusz stream-to-database, przydatny np. w integracji z systemami OLTP.

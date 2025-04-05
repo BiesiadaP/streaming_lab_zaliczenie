@@ -1,0 +1,2 @@
+# Ćwiczenie 6:
+Zaimplementować prosty mechanizm retry dla nieprawidłowych wiadomości oraz przekierowanie do dead-letter topicu (DLQ) po przekroczeniu określonej liczby prób. Studenci nauczą się, jak budować odporny procesor strumieniowy, który radzi sobie z błędami bez utraty danych.
