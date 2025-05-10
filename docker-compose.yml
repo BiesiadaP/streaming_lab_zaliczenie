@@ -13,6 +13,7 @@ services:
       - OPENAI_API_KEY=${OPENAI_API_KEY}
       - HUGGINGFACE_HUB_TOKEN=${HUGGINGFACE_HUB_TOKEN}
       - AZURE_OPENAI_API_KEY=${AZURE_OPENAI_API_KEY}
+      - PYSPARK_DRIVER_PYTHON=python3
 
   zookeeper:
     image: confluentinc/cp-zookeeper:7.5.0
@@ -45,7 +46,4 @@ services:
       POSTGRES_PASSWORD: myuserpass
       POSTGRES_DB: mydb
     volumes:
-      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
-
-# Code based on https://github.com/kjedrzejewski/podyplomowe_genai_public
-# Well done Krzysztof!
+      - ./init-db:/docker-entrypoint-initdb.d/init.sql
