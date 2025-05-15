@@ -1,0 +1,24 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "required": ["device_id", "temperature","humidity", "event_timestamp"],
+    "properties": {
+      "device_id": {
+        "type": "string"
+      },
+      "temperature": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 50
+      },
+      "humidity":{
+        "type": "number",
+        "minimum": 0,
+        "maximum": 100
+      },
+      "event_timestamp": {
+        "type": "number"
+      }
+    }
+  }
+  
