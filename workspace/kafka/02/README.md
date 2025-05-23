@@ -1,2 +1,0 @@
-# Ćwiczenie 2:
-Zobaczyć, jak przesyłać strukturalne dane w formacie JSON za pomocą Apache Kafka i odczytywać je po stronie konsumenta w formie obiektów (słowników Pythonowych). To przygotowuje grunt pod walidację i filtrowanie danych w kolejnych ćwiczeniach.
