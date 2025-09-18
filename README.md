@@ -1,2 +1,2 @@
-# Wykonano projekt podstawowego generowania i przesyłania danych w Apache kafka. Do zobaczenia w katalogu :
+### Wykonano projekt podstawowego generowania i przesyłania danych w Apache kafka. Do zobaczenia w katalogu:
 /workspace/projekt/
