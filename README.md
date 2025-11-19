@@ -3,5 +3,5 @@
 
 The project includes creating:
 1. Topics
-2. Producer - Generating artifical sensor data
+2. Producer - Generating artificial sensor data
 3. Consumer + validator + saving data to postgres db
